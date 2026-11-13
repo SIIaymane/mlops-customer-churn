@@ -1,0 +1,20 @@
+[project]
+name = "mlops-customer-churn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aymane Ouirdani", email = "aymane.ouirdani@sii.fr" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+mlops-customer-churn = "mlops_customer_churn:main"
+
+[build-system]
+requires = ["uv_build>=0.10.3,<0.11.0"]
+build-backend = "uv_build"
