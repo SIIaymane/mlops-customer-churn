@@ -1,0 +1,31 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.venv/
+.env
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+'@ | Set-Content .gitignore
